@@ -380,3 +380,10 @@ Run `python -B -m unittest -v test_broker` after extracting the files. These tes
 5. Production hardening still required: authenticated encrypted transport, ingress concurrency/rate limits, total request deadlines, trusted issuance authentication and audit events without tokens, revocation, schema review, resource exhaustion tests, encrypted backup policy, and a deployment-specific network test. The standard-library threaded HTTP server is for a controlled pilot, not hostile public traffic.
 
 To revoke a task immediately, a trusted operator may set its `remaining` to zero with a parameterized SQLite update; already dispatched calls cannot be recalled. Stop the agent and broker to end the pilot (`docker compose stop`). Do not use volume deletion as a routine restart mechanism. Native provider tokens, financial budgets, multiple broker hosts, arbitrary browser traffic and production certification are outside this reference scope.
+
+
+---
+
+**Need it customised, or a full version for your work?** [Message us on Telegram](https://t.me/mostafa_ideas_2050_bot?start=r_repo_1), no sign-up.
+
+**محتاج نسخة مخصصة أو كاملة لشغلك؟** [ابعتلنا على تليجرام](https://t.me/mostafa_ideas_2050_bot?start=r_repo_1) من غير تسجيل.
